@@ -8,10 +8,6 @@ console.log(greet("mayur"));  // will log "hello mayur"
 
 
 
-
-
-
-
 /*
 function greet(name){
      return "Hello, " + name + "!";
