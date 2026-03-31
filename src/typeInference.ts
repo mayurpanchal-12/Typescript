@@ -35,3 +35,26 @@ console.log(typeof a, a);
 
 // Reassigning a const variable → NOT allowed
 // a = 23; ❌ Error: Cannot assign to 'a' because it is a constant
+
+
+      // Variable without initial value
+
+/**
+  - When a variable is declared without a value,
+  - TypeScript cannot infer its type.
+ 
+  - In such cases, it defaults to 'any' (if strict mode is off),
+  - which means it can hold any type of value.
+ */
+let age;
+
+// Now 'age' behaves like 'any'
+age = 21; // number
+console.log(typeof age, age);
+
+age = "twenty one"; // string
+console.log(typeof age, age);
+
+age = true; // boolean
+console.log(typeof age, age);
+
