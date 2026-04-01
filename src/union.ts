@@ -32,8 +32,15 @@ let item:{name:string |number }={
 //array 
 
 let arr :(number | string | boolean)[] = ["hello" , true , 4]
-  //// Array can contain values of multiple allowed types
-   
+  // Array can contain values of multiple allowed types
+  
+let result1:"success" | "failure" = "success";
+  console.log(typeof(result1),result1);
+  result1="failure";
+  console.log(typeof(result1),result1);
+  // result1="pending";  Error: Type '"pending"' is not assignable to type '"success" | "failure"'
+  // we can defined specific string literals as allowed values using union types
+
 
 let a:number|string|boolean[] = 5;
 /*   a can be:
