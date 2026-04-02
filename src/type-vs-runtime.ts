@@ -15,4 +15,6 @@ for (let order of orders) {
    }
 }
 
-console.log(typeof(currentOrder), currentOrder); //if value found in orders, it will be   "string", "34" else "undefined", undefined
+console.log(typeof(currentOrder), currentOrder); //if value found in orders, it will be   "string", "34" else "undefined", undefined;
+
+//so idealy avoid any as we can ;
