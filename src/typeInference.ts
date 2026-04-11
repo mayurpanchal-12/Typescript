@@ -58,3 +58,17 @@ console.log(typeof age, age);
 age = true; // boolean
 console.log(typeof age, age);
 
+//union
+
+let aa : number | string | boolean = 5;
+    aa = "hello";
+    console.log(typeof aa, aa);
+    aa = true;
+    console.log(typeof aa, aa);
+
+
+    let obhj: {name:string | number} = {
+  name: "mayur"
+}
+console.log(typeof obhj.name, obhj.name);
+
