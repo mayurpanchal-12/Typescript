@@ -2,7 +2,7 @@
 //type can be union but interface can not be union 
 //type can not be merged like interface 
 //type used to shape primitives as well as non primitives but interface used to shape only non primitives
-
+//Types exist only at compile time, not at runtime
 
 type name = string;
 //now whereever i assign name then it should be string
